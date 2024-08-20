@@ -3,8 +3,8 @@ import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
+import { TbBrandReactNative } from 'react-icons/tb';
 
 const technologies = [
     {
@@ -21,21 +21,9 @@ const technologies = [
     },
     {
         id: 3,
-        icon: <BiLogoPostgresql className="text-6xl text-blue-500" />,
-        title: 'PostgreSQL',
-        description: 'An open-source object-relational database system.'
-    },
-    {
-        id: 4,
-        icon: <DiRedis className="text-6xl text-red-500" />,
-        title: 'Redis',
-        description: 'An in-memory data structure store, used as a database, cache, and message broker.'
-    },
-    {
-        id: 5,
-        icon: <SiMongodb className="text-6xl text-green-700" />,
-        title: 'MongoDB',
-        description: 'A NoSQL database designed for scalability and flexibility.'
+        icon: <TbBrandReactNative className="text-6xl text-blue-500" />,
+        title: 'React-Native',
+        description: 'an open-source framework that allows developers to build mobile apps for Android and iOS using JavaScript.'
     },
     {
         id: 5,
